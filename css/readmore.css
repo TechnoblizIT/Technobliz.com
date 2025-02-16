@@ -1,0 +1,22 @@
+.add-read-more.show-less-content .second-section,
+.add-read-more.show-less-content .read-less {
+   display: none;
+}
+
+.add-read-more.show-more-content .read-more {
+   display: none;
+}
+
+.add-read-more .read-more,
+.add-read-more .read-less {
+   font-weight: bold;
+   margin-left: 2px;
+   color: rgb(121, 218, 218);
+   cursor: pointer;
+}
+
+.add-read-more{
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
