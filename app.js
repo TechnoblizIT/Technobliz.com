@@ -1,4 +1,5 @@
 const express=require('express');
+require('dotenv').config()
 const app=express();
 const indexRoute=require("./routes/indexRoutes")
 app.set('view engine', 'ejs');

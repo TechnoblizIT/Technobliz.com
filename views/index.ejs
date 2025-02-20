@@ -16,8 +16,12 @@
 
     <!-- Site Icons -->
     <link rel="shortcut icon" href="../images/images/favicon.ico" type="image/x-icon" />
+	<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <link rel="apple-touch-icon" href="../images/images/apple-touch-icon.png">
-
+     <link rel="stylesheet" href="../stylesheet/css/flaticon.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../stylesheet/css/bootstrap.min.css">
     <!-- Site CSS -->
@@ -99,7 +103,7 @@
       </div>
     </nav>
 	
-	<section id="home" class="main-banner parallaxie" style="background: url('../images/images/uploads/home.jpg')">
+	<section id="home" class="main-banner parallaxie" style="background: url('../images/uploads/home.jpg')">
 		<div class="heading">
 			<h1>Welcome to Technobliz IT Services</h1>			
 			<h3 class="cd-headline clip is-full-width">
@@ -154,7 +158,7 @@
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-seo"></i>
+							<img style="width: 50px; height: 50px;" src="../images/icons/webapp-development.png" alt="Web/App Development">
 						</div>
 						<h2>Web/App Development</h2>
 						<!--  class="add-read-more show-less-content" -->
@@ -164,7 +168,8 @@
                 <div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-development"></i>
+							<img style="width: 50px; height: 50px;" src="../images/icons/responsive-design.png" alt="Responsive Design">
+
 						</div>
 						<h2>Responsive Design</h2>
 						<p>Ensuring your website looks and works flawlessly on every device, delivering a consistent user experience.</p>
@@ -173,7 +178,7 @@
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-process"></i>
+							<img style="width: 50px; height: 50px;" src="../images/icons/creative-design.png" alt="Creative Design">
 						</div>
 						<h2>Creative Design</h2>
 						<p>Infusing artistic flair into every pixel, creating visually stunning and engaging digital experiences.</p>
@@ -182,7 +187,7 @@
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-discuss-issue"></i>
+							<img style="width: 50px; height: 50px;" src="../images/icons/support.png" alt="Support">
 						</div>
 						<h2>Support</h2>
 						<p>Offering round-the-clock assistance and guidance, ensuring smooth operation and continuous improvement.</p>
@@ -191,7 +196,7 @@
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-idea"></i>
+							<img style="width: 50px; height: 50px;" src="../images/icons/web-idea.png" alt="Web Idea">
 						</div>
 						<h2>Web Idea</h2>
 						<p>Transforming your vision into a captivating online presence, with innovative concepts and user-centric design.</p>
@@ -200,7 +205,7 @@
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-idea-1"></i>
+							<img style="width: 50px; height: 50px;" src="../images/icons/graphic-design.png" alt="Graphic Design">
 						</div>
 						<h2>Graphic Design</h2>
 						<p>Elevating your brand with captivating visuals, from logos to multimedia elements, that leave a lasting impression.</p>
@@ -209,7 +214,7 @@
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<img style="width: 50px; height: 50px;" src="../images/images/technologies/app-development.png" alt="Mobile Application">
+							<img style="width: 50px; height: 50px;" src="../images/icons/mobile-app-development.png" alt="Mobile Application">
 						</div>
 						<h2>Mobile Application</h2>
 						<p>We employ masterful techniques to make mobile app development process a total success.</p>
@@ -218,7 +223,7 @@
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<img style="width: 50px; height: 50px;" src="../images/images/technologies/seo.png" alt="SEO">
+							<img style="width: 50px; height: 50px;" src="../images/icons/seo.png" alt="SEO">
 						</div>
 						<h2>SEO</h2>
 						<p>Enhance your online visibility and reach your target audience through effective SEO and online promotion strategies.</p>
@@ -227,7 +232,7 @@
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<img style="width: 50px; height: 50px;" src="../images/images/technologies/consultant.png" alt="IT Consulting">
+							<img style="width: 50px; height: 50px;" src="../images/icons/it-consulting.png" alt="IT Consulting">
 						</div>
 						<h2>IT Consulting</h2>
 						<p>Our IT consulting can help your organization perform exceptionally highly and let you deal with day-to-day business operations.</p>
@@ -925,7 +930,7 @@
 				<div class="col-md-12">
 					<div class="contact_form">
 						<div id="message"></div>
-						<form id="contactForm" name="sentMessage" method="POST" novalidate="novalidate">
+						<form id="contactForm" action="/contactus" name="sentMessage" method="POST" novalidate="novalidate">
 							<input type="hidden" name="access_key" value="8a0b5ff1-ae81-472b-bd24-3122404980d7" />
 							<input type="hidden" name="subject" value="New Submission from Technobliz IT Services" />
 							<input type="checkbox" name="botcheck" id="" style="display: none;" />
@@ -1020,7 +1025,7 @@
         </div><!-- end container -->
     </div><!-- end copyrights -->
 
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+   
 
     <!-- ALL JS FILES -->
     <script src="../js/all.js"></script>
